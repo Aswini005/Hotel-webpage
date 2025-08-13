@@ -771,7 +771,7 @@ nav {
   max-width: 350px;
   margin: auto;
   display: grid;
-  gap: 25rem;
+  gap: 10rem;
 }
 
 .input__group {
@@ -785,7 +785,7 @@ nav {
 }
 
 .input__group input {
-  width: 400%;
+  width: 100%;
   font-size: 1rem;
   padding: 0.5rem;
   color: var(--white);
@@ -1516,5 +1516,4 @@ function bookNow(roomType) {
       alert("Thank you for choosing the " + roomType + "! Our team will contact you shortly.");
     }
 </script>
-
 
